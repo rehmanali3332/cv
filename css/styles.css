@@ -9,19 +9,25 @@ body{
 h1{
   /* width: 10%; */
   /* margin: 0 auto 0 auto; */
+  color:#1ABC9C;
   font-size: 50px;  /*16px=100%==>50/16*/
   font-family: 'Sacramento', cursive;
   /* margin-top: 140px; */
   /* margin-bottom: 0px; */
   /* position: absolute; */
   padding-top: 140px;
+  /*font-weight: bold;*/
+  line-height: 1.19;
 }
 h2{
+  color: #1ABC9C;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
 }
 h3{
+    color: #D1F2EB;
     font-family: 'Montserrat', sans-serif;
+    /*text-align: left;*/
 }
 .cloudR{
   position: absolute;
@@ -35,9 +41,35 @@ h3{
 }
 .bio{
   /* position: absolute; */
+    color: #D1F2EB;
 
 }
 #prof {
   border-radius: 50%;
   margin-top: 50px;
+  /*padding: 100px;*/
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.skill-row{
+  width: 50%;
+  /*text-align: center;*/
+  margin: 100px auto;
+  text-align: left;
+}
+p{
+  line-height: 2;
+}
+.pics{
+  width: 25%;
+  border-radius: 25%;
+  /*background-color: #FFFFFF;*/
+  /*text-align: center;*/
+  float: left;
+  margin-right: 20px;
+  /*margin-bottom: 0px;*/
 }
