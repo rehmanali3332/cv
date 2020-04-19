@@ -5,6 +5,7 @@ body{
 }
 .top-container{
   /* background-color: #87ceeb; */
+  padding: 0 0 100px;
 }
 h1{
   /* width: 10%; */
@@ -49,6 +50,9 @@ h3{
     color: #D1F2EB;
 
 }
+.profile{
+  padding: 50px 0 100px;
+}
 #prof {
   border-radius: 50%;
   margin-top: 50px;
@@ -66,6 +70,10 @@ hr{
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 6%;
+}
+
+.skills{
+  padding: 50px 0 50px;
 }
 
 .skill-row{
@@ -86,6 +94,9 @@ p{
   float: left;
   margin-right: 20px;
   /*margin-bottom: 0px;*/
+}
+.contact-me{
+  padding: 50px 0 100px;
 }
 .contact{
   width: 20%;
@@ -159,8 +170,8 @@ width:140px;
 .bottom-container{
 
   background-color: #66BFBF;
-  margin-top: 50px;
-  padding: 50px 0 20px 0;
+  /*margin-top: 50px;*/
+  padding: 50px 20px 50px 20px;
 }
 
 /*.footer-link1, .footer-link2{*/
